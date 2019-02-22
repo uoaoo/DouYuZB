@@ -2,14 +2,17 @@
 
 * github的readme.md文件使用`markdown`语法编写
 * git clone + 链接获取github项目
-* `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）
-* 强大的`自定义CSS`功能，方便定制自己的展示
-* 有数量也有质量的`主题`,编辑器和预览区域
-* 完美兼容`Github`的markdown语法
-* 预览区域`代码高亮`
-* 所有选项自动记忆
-    *  直接把一个markdown的文本文件拖放到当前这个页面就可以了
-    *  导出为一个html格式的文件，样式一点也不会丢失
+* Xcode提交上Github在菜单上Commit
+
+##获取App图片资源
+* 使用PP助手下载ipa包
+* 大部分资源放在Assets.car文件中
+    * 方法一：在github上搜索cartool把Assets.car文件复制到其他文件夹，然后在cartool工程中点击Edit scheme，然后点击Arguments，然后在Arguments Passed on Launch中点+号，然后把Assets.car文件拖入形成目录，再点+号，把导出的目录也拖入进去
+    * 方法二：使用iOS images Extractor解压Assets.car
+##项目的基本设置
+* 设置icon等
+    *  删除Lauch Screen File中的内容
+    *  点击Launch Images Source，选择Assent
 * 编辑和预览`同步滚动`，所见即所得（右上角设置）
 * `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）
 * 强大的`自定义CSS`功能，方便定制自己的展示
